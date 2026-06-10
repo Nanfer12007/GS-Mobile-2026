@@ -1,4 +1,3 @@
-# GS-Mobile-2026
 # 🌱 Agricultura Inteligente com Dados Espaciais
 
 ## RM556588 - Gabriel Yuji Suzuki
