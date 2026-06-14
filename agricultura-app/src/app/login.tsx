@@ -36,12 +36,16 @@ export default function LoginScreen() {
       router.replace(
         "/tabs/dashboard"
       );
-    } catch {
-      Alert.alert(
-        "Erro",
-        "Login inválido"
-      );
-    }
+    } catch (error: any) {
+  console.log("STATUS:", error?.response?.status);
+  console.log("DATA:", error?.response?.data);
+  console.log("ERROR:", error);
+
+  Alert.alert(
+    "Erro",
+    JSON.stringify(error?.response?.data || error.message)
+  );
+}
   }
 
   return (

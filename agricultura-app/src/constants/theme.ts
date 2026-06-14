@@ -1,4 +1,4 @@
-import { COLORS } from "../constants/colors";
+import { COLORS } from "./colors";
 
 export const theme = {
   colors: COLORS,
