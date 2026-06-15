@@ -20,3 +20,7 @@ Além disso, o sistema realiza a geração automática de dados simulados para f
 ## Rodar Expo
 
 - npx expo start
+
+# Vídeo (não consegui fazer virar vídeo e virou um short)
+
+https://youtube.com/shorts/qoxgfOknRmA?is=Lhi8oK80YMzu5kzy
